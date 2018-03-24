@@ -1,0 +1,1 @@
+['G:\\icybermind2.net\\media\\hexscans\\hexagram46-KHAN', [], ['1544.jpg', '1650.jpg', '1738.jpg', '1758.jpg', '1830.jpg', '1877.jpg', '1931.JPG', '1947.JPG', '2032.jpg', '2079.jpg', '2386.jpg', '2517.jpg', '2682.jpg', '2692.jpg', '2777.jpg', 'Thumbs.db']]

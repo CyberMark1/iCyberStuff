@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Five Point Set.cdy</title>
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #CSConsole {
+            background-color: #FAFAFA;
+            border-top: 1px solid #333333;
+            bottom: 0px;
+            height: 200px;
+            overflow-y: scroll;
+            position: fixed;
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="http://cinderella.de/CindyJS/latest/Cindy.js"></script>
+
+    <script type="text/javascript">
+createCindy({ 
+	scripts: "cs*", 
+	defaultAppearance: { fontFamily: "sans-serif", lineSize: 1, pointSize: 5.0, textsize: 12.0 }, 
+	angleUnit: "�", 
+	geometry: [ 
+		{ name: "A", type: "Free", pos: [ 4.0, 1.7337883959044367, 0.341296928327645 ], color: [ 1.0, 0.0, 0.0 ], labeled: true }, 
+		{ name: "B", type: "Free", pos: [ 4.0, -3.6480000000000006, 0.8 ], color: [ 1.0, 0.0, 0.0 ], labeled: true }, 
+		{ name: "C", type: "Free", pos: [ 4.0, -1.0256410256410255, 0.2136752136752137 ], color: [ 1.0, 0.0, 0.0 ], labeled: true }, 
+		{ name: "D", type: "Free", pos: [ 4.0, -0.1954887218045113, 0.37593984962406013 ], color: [ 1.0, 0.0, 0.0 ], labeled: true }, 
+		{ name: "E", type: "Free", pos: [ 4.0, -0.7648902821316614, 0.3134796238244514 ], color: [ 1.0, 0.0, 0.0 ], labeled: true }, 
+		{ name: "a", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "A", "B" ], labeled: true }, 
+		{ name: "b", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "A", "C" ], labeled: true }, 
+		{ name: "c", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "C", "B" ], labeled: true }, 
+		{ name: "d", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "A", "D" ], labeled: true }, 
+		{ name: "e", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "D", "B" ], labeled: true }, 
+		{ name: "f", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "D", "E" ], labeled: true }, 
+		{ name: "g", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "A", "E" ], labeled: true }, 
+		{ name: "k", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "E", "B" ], labeled: true }, 
+		{ name: "h", type: "Segment", color: [ 0.0, 0.0, 1.0 ], args: [ "E", "C" ], labeled: true } ], 
+	ports: [ 
+		{ id: "CSCanvas", width: 1123, height: 587, transform: [ { visibleRect: [ -9.06, 9.34, 35.86, -14.14 ] } ], background: "rgb(168,176,192)" } ], 
+	cinderella: { build: 1835, version: [ 2, 9, 1835 ] } });
+    </script>
+</head>
+<body>
+    <canvas id="CSCanvas"></canvas>
+</body>
+</html>

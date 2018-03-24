@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>MING TRANSLATOR</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+<body>
+
+  <h2><strong><font color="#0033FF" size="3" face="Arial, Helvetica, sans-serif"><em>MING 
+    TRANSLATOR</em></font></strong></h2>
+  <p><em><strong><font color="#0099FF" size="-1" face="Arial, Helvetica, sans-serif">While 
+    there are undoubtedly initiatory virtues obtained using the ming dictionary 
+    given in </font></strong></em></p>
+  <p><font color="#0099FF" size="-1"><em><strong><font face="Arial, Helvetica, sans-serif"><a href="http://fastblogit.com/permalink/?item=3222">Book 
+    Chameleon 2nd</a> ed. in the yetziratick sequence and other places - this 
+    is easier!</font></strong></em></font></p>
+  <p><em><strong><font color="#CC33FF" face="Arial, Helvetica, sans-serif">Enter 
+    ming in the box below - push the TRANSLATE button when finished</font></strong></em></p>
+  <p><font face="Arial, Helvetica, sans-serif"> 
+  <form name="minginput" method="get" action="mingdict1.html">
+  <p>
+   <textarea name="mingIn" cols="100" rows="5"><?php echo $mingIn ?></textarea>
+
+  </p>
+
+  <p> 
+    <input type="submit"  value="TRANSLATE" name="submit" /></p>
+  </p>
+</form>
+
+<p><strong><font color="#33CC99">USE THE ENGLISH COLUMN BELOW FOR THE TRANSLATION 
+  AND</font></strong></p>
+<p><font color="#33CC99"><strong>GROK ADDITIONAL MEANINGS FROM THE CORRESPONDING 
+  VERSES</strong></font><font color="#33CC99"><strong></strong></font></p>
+
+<?php
+
+// This file contains the database access information. 
+// This file also establishes a connection to MySQL and selects the database.
+
+// Set the database access information as constants.
+DEFINE ('DB_USER', 'magor');
+DEFINE ('DB_PASSWORD', 'ipH2SO4');
+DEFINE ('DB_HOST', 'localhost');
+DEFINE ('DB_NAME', 'ming');
+
+// Make the connnection.
+$dbc = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) OR die ('Could not connect to MySQL: ' . mysql_error() );
+@mysql_select_db (DB_NAME) OR die  ('Could not select the database: ' . mysql_error() );
+// new loop
+$mings=explode(' ',$mingIn);
+   $s='';
+   foreach ($mings as $chr) {
+	$i= $chr . '.gif';
+	$s=$s . " ". sprintf('<img src="http://icybermind.net/media/ming2/%s" alt="%s">',$i,$chr);
+   }
+   $o=sprintf('<div class="ming">%s</div>',$s);
+   echo $o ;
+echo '<table align="left" 
+  cellspacing="0" cellpadding="5">
+ <tr>
+ <td align="left"><b>Ming  </b></td>
+ <td align="left"><b>English</b></td>
+ <td align="left"><b>Verse</b></td>
+ </tr>
+';
+
+   
+
+$words=explode(' ',$mingIn);
+foreach ($words as $value) {
+
+$query = sprintf(" SELECT * FROM mingdict WHERE `mingword` = '$value'  ") ;
+$result = mysql_query($query) OR die('Something funny happened: ' .mysql_error());
+
+#echo '<table align="left" 
+# cellspacing="2" cellpadding="5">
+# <tr>
+# <td align="left"><b>Ming Word </b></td>
+# <td align="left"><b>English</b></td>
+# <td align="left"><b>Absey Yao</b></td>
+# </tr>
+#';
+
+#while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+#		echo '<tr><td align="left">' . $row['mingword'] . " ". '</td><td align="left">' . $row['english']. " " . $row['abseyyao']. 
+#		" "</td></tr>;
+#------
+
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+# echo '<table align="left" cellspacing="2" cellpadding="5">;
+		echo '<tr><td align="left">' . $row['mingword']  . '</td>
+		          <td align="left">' . $row['english']   . '</td>
+				  <td align="left">' . $row['abseyyao']  . '</td>
+			 </tr>
+		';
+	}
+ }
+ echo '</table>';
+#------
+?>
+</body>
+</html>

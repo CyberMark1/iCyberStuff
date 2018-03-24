@@ -1,0 +1,7 @@
+<!--START CLICKABLE IMAGEMAP-->
+<div style="text-align : center;">
+<img src="index.jpg" usemap="#7q7lHZVwEepltGUKdh8w" alt="VALUES circa 1988" border ="0">
+<map name="7q7lHZVwEepltGUKdh8w">
+</map>
+</div>
+<!--END CLICKABLE IMAGEMAP-->

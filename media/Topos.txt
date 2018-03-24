@@ -1,0 +1,75 @@
+(from http://www.newscientist.com/article/mg19425991.400;jsessionid=NMOGDKDEMFOM)
+  
+Impossible things for breakfast, at the Logic Café
+14 April 2007 
+From New Scientist Print Edition. 
+Robert Matthews 
+
+CHRIS ISHAM has a problem with truth. And he suspects his fellow physicists do too. It is not their honesty he doubts, but their approach to understanding the nature of the universe, the laws that govern it and reality itself. Together with a small band of allies, Isham is wrestling with questions that lie at the very core of physics. Indeed they run even deeper, to such basic concepts as logic, existence and truth. What do they mean? Are they immutable? What lies beyond them?
+
+After years of effort, Isham and his colleagues at Imperial College London and elsewhere believe they can glimpse the answers to these profound questions. They didn't set out to rethink such weighty issues. When they started nearly a decade ago, the researchers hoped to arrive at a quantum theory of the universe, an ambitious enough task in itself. Yet in the process they might have bagged something bigger.
+
+For if their results stand up, Isham and his colleagues appear to have found a new way of making sense of reality using concepts even more fundamental than mathematics and logic. Not only could their insights be good news for quantum theory, they could lead to a whole new way of constructing theories of reality.
+
+Since its emergence around a century ago, quantum theory has become one of the cornerstones of modern science. It underpins everything from the behaviour of quarks and semiconductors to the power of medical scanners. And it has passed virtually every test thrown at it, its predictions agreeing with experiment to many decimal places.
+
+With a track record like that, quantum theory might seem ideal for casting light on the ultimate questions about the universe, such as why it exists at all. Not so. In fact, it runs into very big trouble very quickly, because quantum theory has a problem with truth.
+
+With hindsight, perhaps this shouldn't be so surprising. Right from the start, quantum theory has had a reputation for giving odd answers to even seemingly simple questions. In the everyday world, everything has nice, clear-cut properties: people are either dead or alive, electrons either spin up or down. Yet according to quantum theory, what we're seeing is just one manifestation of a whole panoply of possibilities, all mixed together.
+
+How all those possibilities turn into just the one reality we see has caused endless debate among theorists. Their efforts have produced various interpretations of quantum theory, the most famous of which is the Copenhagen interpretation, named in recognition of its inventor, the Danish quantum pioneer Niels Bohr. According to this view, it is the act of observing that triggers the panoply of possibilities to collapse down to the single reality we experience.
+
+Quite how this collapse process works isn't exactly clear. What is plain is that it raises profound questions about the whole notion of truth in quantum theory. For it implies that it is impossible to know the truth of any statement about, say, an electron until it has been observed. Unless that happens, it doesn't really make sense to talk of the electron - or anything else for that matter - as being real.
+
+Things get much worse when quantum theory is applied to the entire universe. If the universe is as real as we believe, then it must have been cast into that state by an observer able to view it all. Yet since the universe includes everything, there can be no external observer.
+
+Theorists have come up with all kinds of alternative interpretations to avoid the problem, which others have in turn torn apart. Small wonder, perhaps, that most workaday physicists are happy to leave them to it. Alas that's just not an option for quantum cosmologists, who have to find some way of turning the cosmic cornucopia into the one real universe we actually inhabit.
+
+But who says they have to? Perhaps we're reading quantum theory all wrong, and there is no need to force the universe or anything else into rude reality. Rethinking quantum theory is an appealing thought, not least because it would pull the quantum world into line with common sense. Yet there is a problem with this vision. It is ruled out by an elegant result published in 1967 by mathematicians Simon Kochen and Ernst Specker.
+
+Kochen and Specker's theorem puts some pretty severe constraints on anyone hoping to rid quantum theory of its weirdness. Put simply, the theorem shows that it is pointless expecting to get simple true and false answers from quantum theory. Every statement about a quantum system must either depend on a host of assumptions, or refuse to obey the standard rules of logic - and possibly both.
+
+For quantum cosmologists, Kochen and Specker's theorem is particularly bad news. It rules out all hope of squaring quantum theory with the common-sense view that the universe is real and has simple, clear-cut properties. Or at least it does for those who believe the laws of logic are set in stone. What if they aren't? Could the problem lie not in quantum theory, but in our notion of truth? That is the question that Isham and his colleagues have dared to ask, with intriguing results.
+
+Abandoning the standard laws of logic in order to make the universe real seems like a hefty price to pay. Yet some theorists have believed it is worth it, says Steven French, a philosopher and quantum physicist at the University of Leeds in the UK. That's one reason why mathematicians over the years have developed other systems of logic. "Along with standard true/false logic there are so-called non-classical logics out there which include true, false and indeterminate values," says French. "People looked at them as a way of dealing with problems in quantum theory, but it died out in the 1970s and 1980s because it wasn't really illuminating very much."
+
+A big sticking-point lay in finding the alternatives to "AND", "OR" and "NOT", the logical operators of the standard or Boolean algebra that are routinely used by everyone from philosophers to computer programmers to make logical deductions. While this familiar form of logic works well enough in everyday situations, it fails to describe the behaviour of quantum systems.
+
+Isham illustrates this using the example of ordering breakfast in a cafe. Imagine looking through the menu and finding that eggs, bacon and sausage are on offer. It states the choice as "eggs AND bacon, OR eggs AND sausage", but the chef could equally offer the same breakfast choice in a shorthand version: "eggs AND (bacon OR sausage)". That's because the operator AND possesses a mathematical property called distributivity, which links eggs with whatever is inside the brackets. Distributivity is vital for making common-sense deductions. Lose it - as you do in quantum theory - and you can expect some unusual results.
+
+Take that cafe menu, for instance. If you ask for eggs AND bacon in the quantum world, you could get nothing at all says Isham. Ask for eggs, and bacon or sausage, and you'll get eggs plus some weird quantum mix of bacon and sausage. Clearly, relying on quantum logic to reason your way to a decent breakfast is likely to lead to disappointment.
+
+There is a serious point lurking behind all this. Systems of logic lacking distributivity are very hard to reason with and quantum logic is one of them. Worse still, Kochen and Specker's theorem rules out any hope of tinkering with quantum logic to force it to give us simple true/false answers to statements about physical systems. Yet without those simple answers, it doesn't make sense to say a physical system has certain properties and is thus "real". Why does quantum logic have to be so frustrating?
+
+Isham and Jeremy Butterfield at the University of Oxford decided to dig deeper into the problem. They dug so deep, in fact, that they found themselves under the foundations of standard mathematics and staring at something far more fundamental. That something is a concept called a topos, and it could be the basis of a whole new way of constructing theories of reality.
+
+The idea of a concept even more general than mathematics and logic may seem mind-bending, yet mathematicians have happily contemplated such things for years. They have long known that the whole of standard mathematics and logic can be constructed from entities called sets. A set is just a collection of objects - anything from the infinite set of prime numbers to the set of all mammals or even the set of all universes. Crucially, sets obey the laws of standard logic and Boolean algebra.
+
+Mathematicians have since discovered that sets themselves are merely the most familiar example of the even more general concept of a topos. The precise definition of a topos is highly technical, but all topoi share one key feature: each gives rise to its very own variety of logic. Suddenly an astonishing possibility opens up: we can break away from the familiar set-based variety of logic and describe the world via other topoi.
+
+Isham and his colleagues saw topoi might offer a way to break the shackles of Kochen and Specker's theorem. The trick was to find topoi whose associated logic would reconcile quantum theory with the notion of a real universe. That meant searching for new definitions of the logical operators AND, OR and NOT. Others have tried this before, and it is far from trivial, says Isham. "In practice, the procedures have been rather hit and miss."
+
+To pin them down precisely, he and his colleagues turned to the bigger mathematical palette offered by topos theory. Now they could see Boolean algebra for what it is: merely the most familiar of many possible types of algebra, each of which could act as the basis of entire new forms of logic.
+
+Armed with these, Isham and his colleagues have identified the topoi for quantum theory. Not surprisingly, they are very different from anything we're familiar with, and of course come with their very own form of logic. That logic does at least have one familiar feature: it is distributive. At a stroke, this removes one of the most perplexing aspects of quantum theory. It allows us once more to make common-sense deductions about quantum systems. Finally, the universe can be real without having to fret about "outside" observers.
+
+Another reality
+But there is a price to pay, and it is precisely what the Kochen-Specker theorem warned of: the demise of simple truth and falsity. For all its drawbacks, Boolean algebra does at least allow every statement about our universe to be either true or false. Yet this turns out to be the exception among all the different types of algebras - including the one underpinning quantum theory. The logic associated with quantum topoi encompasses true, false and many shades of grey in between.
+
+Does that mean we must accept a universe that is real, but about which any question will receive myriad answers, all of them true? According to Isham and his colleagues, the answer - appropriately enough - is both yes and no. If we are content to view reality through the window of classical physics, then we can enjoy straightforward true/false answers to our questions - as long as we avoid the realm of atoms. But if we insist on making statements about atoms, we must use the logic of quantum topoi and accept the existence of a whole host of realities, all as valid as each other.
+
+And that might just be the start; after all, there are more topoi than just the standard and quantum ones. In a series of papers unveiled last month, Isham proposes an even more mind-bending idea: there may be myriad ways of viewing reality, each based on its own topos. Together with Andreas Doering of Imperial, he has shown that every physical system - from an electron to the whole universe - has a unique mathematical identity that dictates how it will appear when viewed through the prism of a particular topos.
+
+Seen via the topos of set theory, an atom takes on its classical appearance with nice, well-defined properties. Viewed through the topos associated with quantum theory, it becomes altogether fuzzier and strange.
+
+We needn't stop there. Why not opt for another topos? It could lead to a view of reality even more astonishing and successful than quantum theory. "What we're hoping is that topos theory becomes the basis for a whole new way of constructing theories", says Isham.
+
+It is an exhilarating possibility, and one that could hardly be better timed. Theoretical physicists feel growing disquiet about the lack of progress on the truly fundamental questions. Attempts to understand the ultimate origin of the universe have spawned a host of ideas, but no consensus as to which is right. Meanwhile the search for a "theory of everything" that would unify all the forces and particles of nature has run into innumerable problems.
+
+Not surprisingly, this has led to mounting suspicions that current theories of fundamental physics are missing something big. Could topos theory open the way? "There's no doubt that we need something radical", says Max Tegmark, a theorist at the Massachusetts Institute of Technology. "Whether this is it is another question. In the end the real test is: does it get us anywhere?"
+
+Isham agrees, but stresses that he and his colleagues have only just begun to scratch the surface of topos theory. He hopes researchers will see his latest papers as a framework for going beyond quantum theory, perhaps to something even more profound.
+
+So will topos theory trigger as big a change in our perceptions of reality as quantum theory did a century ago? That depends at least in part on how other theorists react to these first papers. Isham is under no illusions about that: "We are trying to change the way we construct theories of what reality is like," he says. "And that's always going to be problematic."
+
+From issue 2599 of New Scientist magazine, 14 April 2007, page 30-33
