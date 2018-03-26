@@ -22,4 +22,5 @@ handlers:
 skip_files:
     
 - media/hexscans/Desktop Text Data
+- .git/
 
