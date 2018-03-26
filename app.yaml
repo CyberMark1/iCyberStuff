@@ -16,8 +16,8 @@ instance_class: F1
 handlers:
 
   - url: /index.html
-    static_files: /index.html
-    upload: /index.html
+    static_files: index.html
+    upload: index.html
 
   - url: /(.*)\.php$
     script: \1.php
