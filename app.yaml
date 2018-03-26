@@ -39,4 +39,5 @@ skip_files:
     
 - media/hexscans/Desktop Text Data
 - .git/
+- domains_ming.sql
 
