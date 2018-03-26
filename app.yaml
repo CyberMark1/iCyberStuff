@@ -22,6 +22,14 @@ handlers:
   - url: /(.*)\.php$
     script: \1.php
 
+  - url: /media/ming/(.*)
+    static_files: media/ming/\1
+    upload: /media/ming/(.*)
+
+  - url: /media/ming2/(.*)
+    static_files: media/ming2/\1
+    upload: /media/ming2/(.*)
+
   - url: /(.*)
     static_files: \1
     upload: /(.*)
