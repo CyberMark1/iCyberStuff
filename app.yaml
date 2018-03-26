@@ -20,7 +20,7 @@ handlers:
   upload: /index.html
 
 - url: /(.*)
-  static_files: /\1
+  static_dir: /\1
   upload: /(.*)
 
 
