@@ -19,8 +19,8 @@ handlers:
   static_files: /index.html
   upload: /index.html
 
-- url: /(.*)
-  static_dir: /\1
+- url: /
+  static_dir: /
 
 
 skip_files:
