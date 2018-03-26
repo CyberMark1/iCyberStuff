@@ -22,6 +22,10 @@ handlers:
   - url: /(.*)\.php$
     script: \1.php
 
+  - url: /(.*)
+    static_files: \1
+    upload: /(.*)
+
   - url: /
     static_dir: /
 
