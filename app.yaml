@@ -34,9 +34,6 @@ handlers:
     static_files: \1
     upload: /(.*)
 
-  - url: /(.*)
-    static_dir: \1
-
 
 skip_files:
     
