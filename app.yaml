@@ -15,12 +15,15 @@ instance_class: F1
 
 handlers:
 
-- url: /index.html
-  static_files: /index.html
-  upload: /index.html
+  - url: /index.html
+    static_files: /index.html
+    upload: /index.html
 
-- url: /
-  static_dir: /
+  - url: /(.*)\.php$
+    script: \1.php
+
+  - url: /
+    static_dir: /
 
 
 skip_files:
