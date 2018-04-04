@@ -1,4 +1,4 @@
-service: icybemind
+service: icybermind
 runtime: php55
 api_version: 1
 env: standard
