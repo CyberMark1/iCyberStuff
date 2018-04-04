@@ -32,7 +32,7 @@ handlers:
 
   - url: /(.*)
     static_files: \1
-    upload: /(.*)
+    upload: (.*)
 
 
 skip_files:
